@@ -1,0 +1,150 @@
+*
+{
+    background-color: black;
+    color: #d9d9d9;
+}
+
+body
+{
+    font-family: 'Open Sans', Arial;
+    color: #454545;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align:justify
+}
+
+
+.red
+{
+    color: #B00102;
+}
+
+.blue
+{
+    color: #1301ED;
+}
+
+.violet
+{
+    color: #551B8B;
+}
+
+.darkergrey
+{
+color: #444;
+}
+.darkergrey:before{
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #444;
+}
+
+.lightergrey
+{
+    color: #454545;
+}
+.lightergrey:before{
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #454545;
+}
+.kopimi{
+    height:2em;
+    margin-left:25%;
+}
+
+.wrong
+{
+    color: #D24636;
+    text-decoration: underline;
+}
+
+
+small
+{
+    font-size: .4em;
+}
+
+a
+{
+    color: #04A3E7;
+}
+
+a:visited
+{
+    color: #CA1A70;
+}
+
+.fakepre
+{
+    font-family: monospace;
+    font-size: .9em;
+}
+
+div.fancyPositioning div.picture-left {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right:1em
+}
+
+div.fancyPositioning div.picture-left img {
+    width:100%
+}
+
+div.fancyPositioning div.picture-left figure {
+    margin:10px
+}
+
+div.fancyPositioning div.picture-left figure figcaption {
+    font-size:.7em;
+}
+
+    div.fancyPositioning div.tleft {
+        float:left;
+        width:55%
+    }
+    
+    div.fancyPositioning div.tleft p:first-child {
+        margin-top:0
+    }
+    
+    div.fancyPositioning:after {
+        display: block;
+        content: "";
+        clear:both;
+    }
+    
+    ul li img {
+        height:1em
+    }
+
+
+.author{
+        width: 80%;
+        margin-left:15%;
+        font-size:0.6em;
+}
+
+blockquote
+{
+    color: #D2C9BE;
+}
+    
+a.kopimi, a.kopimi img.kopimi {
+    display: block;
+    margin-left: auto;
+    margin-right:auto
+}
+
